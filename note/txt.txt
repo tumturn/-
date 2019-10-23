@@ -8,3 +8,11 @@ https://test.eagle360.net/contractor/edit
 https://test.eagle360.net/account/login?returnurl=/survey/10319
 https://test.eagle360.net/survey
 vao profile update phat chết luôn
+https://test.eagle360.net/supplier/edit/1 -10 gọi hồn đã xóa
+
+
+https://lifehacker.com/switch-between-multiple-gmail-accounts-with-a-url-hack-5733636
+
+testcase :http://mundrisoft.com/tech-bytes/manual-test-cases-for-web-hyper-link/
+
+https://danielfuterman.com/18-google-chrome-search-tricks-boost-productivity/
