@@ -22,3 +22,8 @@ https://www.cheatography.com/richardjh/cheat-sheets/ubuntu-unity/
 
 # chay ứng dụng win trên  ubuntu
 https://quantrimang.com/cach-chay-cac-ung-dung-windows-tren-linux-voi-wine-149785
+
+
+# error
+https://askubuntu.com/questions/308937/cannot-install-ubuntu-in-virtualbox-due-to-this-kernel-requires-an-x86-64-cpu
+this kernel reuires an x86-64 cpu but only detected an i686 cpu unable to boot - please use a kernel appropriate for your CPU
