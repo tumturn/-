@@ -1,3 +1,13 @@
 
 # install chrome
 google-chrome-stable
+
+#install intellij
+sudo snap install intellij-idea-community --classic
+
+#
+https://www.ubuntupit.com/10-fast-and-secure-remote-desktop-client-software-for-linux/
+https://linuxize.com/post/how-to-install-google-chrome-web-browser-on-ubuntu-18-04/
+
+# xem ip => ip addr show 
+https://www.codehub.vn/Kiem-Tra-IP-Address-tren-Ubuntu
