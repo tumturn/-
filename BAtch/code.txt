@@ -1,4 +1,10 @@
 # turn off screen 
 %systemroot%\system32\scrnsave.scr /s
 
-#
+#turn off network card
+netsh interface set interface "Ethernet 2" DISABLED
+netsh interface set interface "Ethernet 2" ENABLE
+
+#kill task 
+%windir%\system32\taskkill /f  /t / IM tenapp.exe
+%windir%\system32\tasklist
