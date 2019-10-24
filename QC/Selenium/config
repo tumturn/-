@@ -2,9 +2,24 @@
 java : 
 https://www.mkyong.com/java/how-to-set-java_home-on-windows-10/
 
+
+
+-------------------------------------------------------
 maven : 
 https://www.mkyong.com/maven/how-to-install-maven-in-windows/
 
-pom :  add maven for pom
+download maven :http://maven.apache.org/download.cgi
+View advanced system settings  (win+R) > SystemPropertiesAdvanced
+
+
+
+
+-------------------------------------------------------
+pom :  add maven for pom > google > maven.seleniumhq.org
 https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java/3.141.59
 =>
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>3.141.59</version>
+</dependency>
