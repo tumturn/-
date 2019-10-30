@@ -6,33 +6,33 @@
                       █
                       
 **Loading a web page in current browser window
-Here is a list of possible ways to load web page
+Here is a list of possible ways to load web page**
 
 driver.get(java.lang.String)
 driver.navigate().to(java.lang.String)
 driver.navigate().to(java.net.URL)
 
 **Navigation
-Here is a list of possible ways to navigate back or forward
+Here is a list of possible ways to navigate back or forward**
 
 Driver.Navigate().Back()
 Driver.Navigate().Forward()
 
 **Refresh page
-refresh() is the only method to refresh page in selenium
+refresh() is the only method to refresh page in selenium**
 
 Driver.Navigate().Refresh()
 
 **Window Title
-Window title get be obtained using getTitle() method
+Window title get be obtained using getTitle() method**
 
 driver.getTitle()
 **Current URL
-Current url can be obtained using method getCurrentUrl()
+Current url can be obtained using method getCurrentUrl()**
 
 driver.getCurrentUrl()
 **Page Source
-Whole page source be collected using getPageSource() method
+Whole page source be collected using getPageSource() method**
 
 driver.getPageSource()
 Locating web elements
