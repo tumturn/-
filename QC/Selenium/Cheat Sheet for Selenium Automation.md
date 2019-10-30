@@ -69,11 +69,13 @@ driver.findElement(By.linkText(”Sign in”));
 driver.findElement(By.partiallinkText(”Sign”))
 
 **Finding name by Name**
+
 driver.findElement(By.name(”password”));
 <input id=”modCustLoginPassword” name=”password”>
 
  
 **Find element by tagName**
+
 Email address
 driver.findElement(By.tagName(”label”));
 
@@ -86,6 +88,7 @@ Return all that matches any of the locators in sequence
 driver.findElements(new ByAll(by1, by2))
 
 **Find element by CSS Selector**
+
 -Absolute path-
 
 driver.findElement(By.cssSelector(”html>body>div>p>input”));
@@ -99,26 +102,33 @@ driver.findElement(By.cssSelector(”button[name]”));
 driver.findElement(By.cssSelector(”button[name=‚cancel’]”));
 
 driver.findElement(By.cssSelector(”img:not[alt]”));
+
 -Id selection-
 
 driver.findElement(By.cssSelector(”#save”));
+
 -Class selection-
 
 driver.findElement(By.cssSelector(”.login”));
+
 -Combined selection-
 
 driver.findElement(By.cssSelector(”button#save”));
 
 driver.findElement(By.cssSelector(”input.login”));
+
 -First matching child of the specified tag-
 
 driver.findElement(By.cssSelector(”div#students:first-child”));
+
 -Nth matching child of the specified tag-
 
 driver.findElement(By.cssSelector(”#loginForm:nth-child(3)”));
+
 -First matching enabled tag-
 
 driver.findElement(By.cssSelector(”button:enabled”));
+
 **Finding element by XPath**
 -Absolute path-
 
